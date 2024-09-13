@@ -9,12 +9,12 @@ const badgeVariants = cva(
     variants: {
       variant: {
         default:
-          "border-brand-300 bg-brand-100 text-brand-300",
+          "border-brand-200 bg-brand-100 text-brand-300/70",
         success:
-          "border-success-300 bg-success-100/50 text-success-300",
-        warning: "border-warning-300 bg-warning-100/50 text-warning-300",
+          "border-success-200 bg-success-100/20 text-success-200",
+        warning: "border-warning-200 bg-warning-100/35 text-warning-200",
         error:
-          "border-error-300 bg-error-100/80 text-error-300",
+          "border-error-200 bg-error-100/40 text-error-200",
       },
       border: {
         default: "rounded-sm",
