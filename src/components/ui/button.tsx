@@ -24,13 +24,11 @@ const buttonVariants = cva(
         secondary:
           "bg-white border border-brand-200 text-brand-200 hover:border-brand-300 hover:text-brand-300 disabled:border-natural-200 disabled:text-natural-200",
         third:
-          "bg-white text-brand-200 shadow-sm hover:text-brand-300 disabled:border-natural-200 disabled:text-natural-200"
+          "bg-white text-brand-200 shadow-sm hover:text-brand-300 disabled:text-natural-200 "
       },
       size: {
-        default: "h-9 px-4 py-2",
-        sm: "h-8 rounded-md px-3 text-xs",
-        lg: "h-10 rounded-md px-8",
-        icon: "h-9 w-9",
+        default: "h-10",
+        icon: "p-0 md:p-0 lg:p-0 "
       },
     },
     defaultVariants: {
