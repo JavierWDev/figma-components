@@ -15,6 +15,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 import { MyTooltipContent } from './components/my_components/MyTooltipContent';
+import { Badge } from './components/ui/badge';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -120,9 +121,19 @@ createRoot(document.getElementById('root')!).render(
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>
-
       </div>
       <hr />
+      <div className='flex gap-2'>
+        <h1>Badges</h1>
+        <Badge>Primary</Badge>
+        <Badge border="rounded">Primary</Badge>
+        <Badge variant="success">Success</Badge>
+        <Badge variant="success" border="rounded">Success</Badge>
+        <Badge variant="warning">Warning</Badge>
+        <Badge variant="warning" border="rounded">Warning</Badge>
+        <Badge variant="error">Error</Badge>
+        <Badge variant="error" border="rounded">Error</Badge>
+      </div>
     </div>
   </StrictMode>,
 )
